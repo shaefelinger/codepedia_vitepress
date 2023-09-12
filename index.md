@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "codepedia.de"
+  name: "codepedia v3"
   text: "A VitePress Site"
   tagline: My little personal coding reference...
   actions:
