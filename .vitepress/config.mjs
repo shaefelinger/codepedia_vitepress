@@ -6,6 +6,8 @@ export default defineConfig({
   description: "A VitePress Site",
   cleanUrls: true,
 
+  srcDir: './src',
+
   appearance: 'dark',
 
   themeConfig: {
