@@ -6,7 +6,7 @@
 
 ## CSS Syntax
 
-<img src="./assets/CSS Syntax3.png" alt="CSS Syntax" style="zoom:50%;" />
+<img src="./assets/css-syntax.png" alt="CSS Syntax" style="zoom:50%;" />
 
 ------
 

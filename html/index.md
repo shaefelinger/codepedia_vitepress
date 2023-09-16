@@ -2,7 +2,7 @@
 
 ## HTML Syntax
 
-<img src="./assets/HTML Syntax2.png" alt="HTML Syntax2.png" style="zoom:50%;" />
+<img src="./assets/html-syntax.png" alt="HTML Syntax2.png" style="zoom:50%;" />
 
 ---
 
@@ -281,7 +281,7 @@ Here’s what a typical webpage could include:
 - `<article>` as the main content of the page, like a blog post.
 - `<footer>` as the last element of the page, located at the bottom.
 
-<img src="./assets/HTML sectioning.png" alt="html-sectioning-elements" style="zoom:33%;" />
+<img src="./assets/html-sectioning.png" alt="html-sectioning-elements" style="zoom:33%;" />
 
 ---
 

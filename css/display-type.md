@@ -2,7 +2,7 @@
 # Display Type 
 
 Inline, Block, Block-Inline
-<img src="./assets/HTML display.png" alt="img" style="zoom: 67%;" />
+<img src="./assets/display-type.png" alt="img" style="zoom: 67%;" />
 
 [Block-Display-Elements:](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
 

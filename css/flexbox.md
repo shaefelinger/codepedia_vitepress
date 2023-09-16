@@ -63,7 +63,7 @@ In the example above, all divs with the class container are flex containers. If 
 - The size of each item is not changed.
 - Values: *center, flex-start (default), flex-end, space-around (equal space before+after items), space-between (equal space between, no extra space @start/end)*
 
-<img src="./assets/flex justify-content.png" alt="flex justify-content" style="zoom:50%;" />
+<img src="./assets/flex-justify-content.png" alt="flex justify-content" style="zoom:50%;" />
 
 ### [`align-items`](https://www.w3schools.com/css/css3_flexbox_container.asp#align-items) 
 
