@@ -27,6 +27,16 @@ export default defineConfig({
       {text: 'HTML', link: '/html/', activeMatch: '/html/',},
       {text: 'CSS', link: '/css/', activeMatch: '/css/',},
       {
+        text: 'Javascript',
+        activeMatch: '/javascript/',
+        items: [
+          {text: 'JavaScript', link: '/javascript/'},
+          {text: 'JS for Web', link: '/typescript/compiler-settings'},
+          {text: 'Async JS', link: '/typescript/compiler-settings'},
+          {text: 'JQuery', link: '/typescript/compiler-settings'},
+        ]
+      },
+      {
         text: 'Typescript',
         activeMatch: '/typescript/',
         items: [
@@ -84,6 +94,31 @@ export default defineConfig({
             {text: 'CSS-misc', link: '/css/css-misc'},
             {text: 'SCSS & SASS', link: '/css/scss-sass'},
             {text: 'CSS Links', link: '/css/css-links'}
+          ]
+        }
+      ],
+      '/javascript/': [
+        {
+          text: 'JavaScript Basics',
+          items: [
+            {text: 'Basics', link: '/javascript/'},
+            {text: 'Variables', link: '/javascript/variables'},
+            {text: 'Operators', link: '/javascript/operators'},
+            {text: 'Numbers', link: '/javascript/numbers'},
+            {text: 'Strings', link: '/javascript/strings'},
+            {text: 'Arrays', link: '/javascript/arrays'},
+            {text: 'Conditional statements', link: '/javascript/conditional-statements'},
+            {text: 'Functions', link: '/javascript/functions'},
+            {text: 'Loops', link: '/javascript/loops'},
+            {text: 'Objects', link: '/javascript/objects'},
+            {text: 'JS this', link: '/javascript/this'},
+            {text: 'Maps & Sets', link: '/javascript/maps-sets'},
+            {text: 'Destructuring', link: '/javascript/destructuring'},
+            {text: 'Modules', link: '/javascript/modules'},
+            {text: 'Play audio', link: '/javascript/play-audio'},
+            {text: 'Classes JS', link: '/javascript/classes'},
+            {text: 'Dates', link: '/javascript/dates'},
+            {text: 'Links & Infos', link: '/javascript/links'},
           ]
         }
       ],
