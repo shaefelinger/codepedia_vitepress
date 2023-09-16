@@ -20,9 +20,10 @@ export default defineConfig({
     },
 
     nav: [
-      {text: 'Home', link: '/'},
+      // {text: 'Home', link: '/'},
 
-      {text: 'Examples', link: '/examples/markdown-examples', activeMatch: '/examples/',},
+      {text: 'HTML', link: '/html/', activeMatch: '/html/',},
+      {text: 'CSS', link: '/css/', activeMatch: '/css/',},
       {
         text: 'Typescript',
         activeMatch: '/typescript/',
@@ -31,6 +32,7 @@ export default defineConfig({
           {text: 'TS Compiler settings', link: '/typescript/compiler-settings'},
         ]
       },
+      {text: 'Examples', link: '/examples/markdown-examples', activeMatch: '/examples/',},
       {
         text: 'Dropdown Menu',
         items: [
@@ -47,6 +49,42 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/html/': [
+        {
+          text: 'HTML',
+          items: [
+            {text: 'HTML-Basics', link: '/html/'},
+            {text: 'Forms', link: '/html/forms'},
+            {text: 'HTML Links', link: '/html/reference-links'}
+          ]
+        }
+      ],
+      '/css/': [
+        {
+          text: 'CSS',
+          items: [
+            {text: 'CSS-Basics', link: '/css/'},
+            {text: 'Selectors', link: '/css/selectors'},
+            {text: 'Color', link: '/css/color'},
+            {text: 'Units', link: '/css/units'},
+            {text: 'Typography', link: '/css/typography'},
+            {text: 'Specifity', link: '/css/specifity'},
+            {text: 'Box-Model', link: '/css/box-model'},
+            {text: 'Positioning', link: '/css/positioning'},
+            {text: 'Float & Clear', link: '/css/float-clear'},
+            {text: 'Display-type', link: '/css/display-type'},
+            {text: 'Centering', link: '/css/centering'},
+            {text: 'Flexbox', link: '/css/flexbox'},
+            {text: 'Grid', link: '/css/grid'},
+            {text: 'Responsiveness', link: '/css/responsiveness'},
+            {text: 'Transition', link: '/css/transition'},
+            {text: 'Animation', link: '/css/animation'},
+            {text: 'CSS-misc', link: '/css/css-misc'},
+            {text: 'SCSS & SASS', link: '/css/scss-sass'},
+            {text: 'CSS Links', link: '/css/css-links'}
+          ]
+        }
+      ],
       '/typescript/': [
         {
           text: 'Guide',
