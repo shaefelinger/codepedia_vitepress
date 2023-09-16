@@ -4,7 +4,10 @@
 
 ```JS
 // single line comment
-/* multiline comment */` also works within a line: `console.log(/*IGNORED!*/ 5); // Still just prints 5
+/* multiline comment */ 
+
+// also works within a line: 
+console.log(/*IGNORED!*/ 5); // Still just prints 5
 ```
 
 ## Basic Syntax and Logic
@@ -19,11 +22,11 @@
 
 ## Reserverd Keywords
 
-`abstract, arguments, await*boolean, break, bytecase, catch, char, class, const, continuedebugger, default, delete, do, doubleelse, enum, eval, export, extendsfalse, final, finally, float, for, functiongotoif, implements, import,in, instanceof, int, interfacelet, longnative, new, nullpackage, private, protected, publicreturnshort, static, super, switch, synchronizedthis, throw, throws, transient, true, try, typeofvar, void, volatilewhile, withyield`
+`abstract, arguments, await, boolean, break, bytecase, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, eval, export, extends, false, final, finally, float, for, function, goto, if, implements, import, in, instanceof, int, interface, let, long, native, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient, true, try, typeof, var, void, volatile, while, with, yield`
 
 Also Avoid:
 
-`Array, Date, eval, function hasOwnProperty, Infinity, isFinite, isNaN, isPrototypeOf, length, Math, NaN, name, Number, Object, prototype, String, toString, undefined, valueOf`
+`Array, Date, eval, function, hasOwnProperty, Infinity, isFinite, isNaN, isPrototypeOf, length, Math, NaN, name, Number, Object, prototype, String, toString, undefined, valueOf`
 
 ---
 
