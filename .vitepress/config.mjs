@@ -30,10 +30,10 @@ export default defineConfig({
         text: 'Javascript',
         activeMatch: '/javascript/',
         items: [
-          {text: 'JavaScript', link: '/javascript/'},
-          {text: 'JS for Web', link: '/typescript/compiler-settings'},
-          {text: 'Async JS', link: '/typescript/compiler-settings'},
-          {text: 'JQuery', link: '/typescript/compiler-settings'},
+          {text: 'JavaScript', link: '/javascript/js/'},
+          {text: 'JS for Web', link: '/javascript/js-web/'},
+          {text: 'Async JS', link: '/javascript/js-async/'},
+          {text: 'JQuery', link: '/javascript/jquery/'},
         ]
       },
       {
@@ -101,25 +101,54 @@ export default defineConfig({
         {
           text: 'JavaScript Basics',
           items: [
-            {text: 'Basics', link: '/javascript/'},
-            {text: 'Variables', link: '/javascript/variables'},
-            {text: 'Operators', link: '/javascript/operators'},
-            {text: 'Numbers', link: '/javascript/numbers'},
-            {text: 'Strings', link: '/javascript/strings'},
-            {text: 'Arrays', link: '/javascript/arrays'},
-            {text: 'Conditional statements', link: '/javascript/conditional-statements'},
-            {text: 'Functions', link: '/javascript/functions'},
-            {text: 'Loops', link: '/javascript/loops'},
-            {text: 'Objects', link: '/javascript/objects'},
-            {text: 'JS this', link: '/javascript/this'},
-            {text: 'Maps & Sets', link: '/javascript/maps-sets'},
-            {text: 'Destructuring', link: '/javascript/destructuring'},
-            {text: 'Modules', link: '/javascript/modules'},
-            {text: 'Play audio', link: '/javascript/play-audio'},
-            {text: 'Classes JS', link: '/javascript/classes'},
-            {text: 'Dates', link: '/javascript/dates'},
-            {text: 'Links & Infos', link: '/javascript/links'},
+            {text: 'Basics', link: '/javascript/js/'},
+            {text: 'Variables', link: '/javascript/js/variables'},
+            {text: 'Operators', link: '/javascript/js/operators'},
+            {text: 'Numbers', link: '/javascript/js/numbers'},
+            {text: 'Strings', link: '/javascript/js/strings'},
+            {text: 'Arrays', link: '/javascript/js/arrays'},
+            {text: 'Conditional statements', link: '/javascript/js/conditional-statements'},
+            {text: 'Functions', link: '/javascript/js/functions'},
+            {text: 'Loops', link: '/javascript/js/loops'},
+            {text: 'Objects', link: '/javascript/js/objects'},
+            {text: 'JS this', link: '/javascript/js/this'},
+            {text: 'Maps & Sets', link: '/javascript/js/maps-sets'},
+            {text: 'Destructuring', link: '/javascript/js/destructuring'},
+            {text: 'Modules', link: '/javascript/js/modules'},
+            {text: 'Play audio', link: '/javascript/js/play-audio'},
+            {text: 'Classes JS', link: '/javascript/js/classes'},
+            {text: 'Dates', link: '/javascript/js/dates'},
+            {text: 'Links & Infos', link: '/javascript/js/links'},
           ]
+        }
+      ],
+      '/javascript/js-web/': [
+        {
+          text: 'JavaScript for Web',
+          items: [
+            {text: 'Adding Javascript', link: '/javascript/js-web/'},
+            {text: 'The DOM', link: '/javascript/js-web/the-dom'},
+            {text: 'Selecting DOM-Elements', link: '/javascript/js-web/dom-selecting'},
+            {text: 'Manipulating the DOM', link: '/javascript/js-web/dom-manipulation'},
+            {text: 'Working with Browser Events', link: '/javascript/js-web/browser-events'}
+          ]
+        }
+      ],
+      '/javascript/js-async/': [
+        {
+          text: 'Async JavaScript',
+          items: [
+            {text: 'Async JavaScript', link: '/javascript/js-async/'},
+            {text: 'Nested Callbacks', link: '/javascript/js-async/nested-callbacks'},
+            {text: 'Promises', link: '/javascript/js-async/promises'},
+            {text: 'Async-Await', link: '/javascript/js-async/async-await'},
+            {text: 'Helper function to()', link: '/javascript/js-async/to-function'},
+          ]
+        }
+      ],
+      '/javascript/jquery/': [
+        {
+          text: 'JQuery'
         }
       ],
       '/typescript/': [
