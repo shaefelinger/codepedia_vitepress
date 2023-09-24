@@ -8,7 +8,7 @@ export default defineConfig({
 
   srcDir: './src',
 
-  appearance: 'dark',
+  appearance: true,
 
   themeConfig: {
     outline: 'deep',
@@ -38,13 +38,22 @@ export default defineConfig({
       },
       {
         text: 'Typescript',
-        activeMatch: '/typescript/',
+        link: '/typescript/',
+        activeMatch: '/typescript/'
+      },
+      {
+        text: 'Backend',
+        activeMatch: '/backend/',
         items: [
-          {text: 'TS Basics', link: '/typescript/'},
-          {text: 'TS Compiler settings', link: '/typescript/compiler-settings'},
+          {text: 'Backend Basics', link: '/backend/basics/'},
+          {text: 'Node', link: '/backend/node/'},
+          {text: 'Express', link: '/backend/express/'},
+          {text: 'Connect Node to DB', link: '/backend/node-db-connect/'},
         ]
       },
+
       {text: 'Examples', link: '/examples/markdown-examples', activeMatch: '/examples/',},
+
       {
         text: 'Dropdown Menu',
         items: [
@@ -153,12 +162,62 @@ export default defineConfig({
       ],
       '/typescript/': [
         {
-          text: 'Guide',
-          collapsed: false,
+          text: 'Typescript',
           items: [
-            {text: 'Index', link: '/guide/'},
-            {text: 'One', link: '/guide/one'},
-            {text: 'Two', link: '/guide/two'}
+            {text: 'Typescript Basics', link: '/typescript/'},
+            {text: 'Compiler Settings', link: '/typescript/compiler-settings'},
+          ]
+        }
+      ],
+      '/backend/basics/': [
+        {
+          text: 'Backend Basics',
+        }
+      ],
+      '/backend/node/': [
+        {
+          text: 'Node',
+          items: [
+            {text: 'Node Basics', link: '/backend/node/'},
+            {text: 'NPM', link: '/backend/node/npm'},
+            {text: 'YARN', link: '/backend/node/yarn'},
+            {text: 'NVM Node Version Manager', link: '/backend/node/nvm'},
+            {text: 'Debugging', link: '/backend/node/debugging'},
+            {text: 'Node - The Process Object', link: '/backend/node/process-object'},
+            {text: 'Node - Event-driven architecture', link: '/backend/node/event-architecture'},
+            {text: 'Node - Modules', link: '/backend/node/modules'},
+            {text: 'Node - Filesystem & Streams', link: '/backend/node/filesystem'},
+            {text: 'Node - Errors', link: '/backend/node/errors'},
+            {text: 'Node - Links', link: '/backend/node/links'},
+          ]
+        }
+      ],
+      '/backend/node-db-connect/': [
+        {
+          text: 'Connect Node to DB',
+          items: [
+            {text: 'Node Connect', link: '/backend/node-db-connect/'},
+            {text: 'Sequelize', link: '/backend/node-db-connect/sequelize'}
+          ]
+        }
+      ],
+      '/backend/express/': [
+        {
+          text: 'Express',
+          items: [
+            {text: 'Express', link: '/backend/express/'},
+            {text: 'Route Handlers', link: '/backend/express/route-handlers'},
+            {text: 'Router', link: '/backend/express/router'},
+            {text: 'Middleware', link: '/backend/express/middleware'},
+            {text: 'Requests', link: '/backend/express/requests'},
+            {text: 'Responses', link: '/backend/express/responses'},
+            {text: 'File Path', link: '/backend/express/file-path'},
+            {text: 'Static Files', link: '/backend/express/static-files'},
+            {text: 'Error Handling', link: '/backend/express/error-handling'},
+            {text: 'Templating Engines', link: '/backend/express/templating-engines'},
+            {text: 'Model-View-Controller MVC', link: '/backend/express/mvc'},
+            {text: '.ENV', link: '/backend/express/env'},
+            {text: 'Express Links', link: '/backend/express/links'},
           ]
         }
       ],
