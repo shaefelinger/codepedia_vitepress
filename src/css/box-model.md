@@ -55,12 +55,10 @@ How the total size of the box is calculated:
 
   ```css
   html {
-  box-sizing: border-box;
+  	box-sizing: border-box;
   }
-  *,
-  *:before,
-  *:after {
-  box-sizing: inherit;
+  *, *:before, *:after {
+  	box-sizing: inherit;
   }
   ```
 
