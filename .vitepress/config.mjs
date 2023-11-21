@@ -51,6 +51,11 @@ export default defineConfig({
           {text: 'Connect Node to DB', link: '/backend/node-db-connect/'},
         ]
       },
+      {
+        text: 'GIT',
+        link: '/git/',
+        activeMatch: '/git/'
+      },
 
       {text: 'Examples', link: '/examples/markdown-examples', activeMatch: '/examples/',},
 
@@ -220,6 +225,15 @@ export default defineConfig({
             {text: 'Express Links', link: '/backend/express/links'},
           ]
         }
+      ],
+         '/git/': [
+          {
+            text: 'Git',
+            items: [
+              {text: 'GitHub', link: 'git/github'},
+              {text: 'Git Links', link: 'git/git-links'}
+            ]
+          }
       ],
       '/examples/':  [
           {
