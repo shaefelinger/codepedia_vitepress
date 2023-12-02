@@ -62,11 +62,9 @@ export default defineConfig({
         items: [
           { text: 'DB Basics', link: '/databases/basics' },
           { text: 'SQL', link: '/databases/sql/' },
-          { text: 'Express', link: '/backend/express/' },
-          { text: 'Connect Node to DB', link: '/backend/node-db-connect/' },
+          { text: 'No-SQL', link: '/databases/no-sql/' },
         ],
       },
-
       {
         text: 'Examples',
         link: '/examples/markdown-examples',
@@ -372,6 +370,46 @@ export default defineConfig({
             {
               text: 'Links',
               link: '/databases/sql/links',
+            },
+          ],
+        },
+      ],
+      '/databases/no-sql/': [
+        {
+          text: 'SQL-Databases',
+          items: [
+            { text: 'MongoDB Basics', link: '/databases/no-sql/' },
+            {
+              text: 'Create MongoDB',
+              link: '/databases/no-sql/create-mongo',
+            },
+            {
+              text: 'Read MongoDB',
+              link: '/databases/no-sql/read-mongo',
+            },
+            {
+              text: 'Update MongoDB',
+              link: '/databases/no-sql/update-mongo',
+            },
+            {
+              text: 'Delete MongoDB',
+              link: '/databases/no-sql/delete-mongo',
+            },
+            {
+              text: 'Relationships in MongoDB',
+              link: '/databases/no-sql/relations-mongo',
+            },
+            {
+              text: 'MongoDB Atlas and Compass',
+              link: '/databases/no-sql/atlas',
+            },
+            {
+              text: 'MongoDB with Node.js',
+              link: '/databases/no-sql/mongo-node',
+            },
+            {
+              text: 'Mongoose',
+              link: '/databases/no-sql/mongoose',
             },
           ],
         },
