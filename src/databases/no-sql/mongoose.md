@@ -313,5 +313,5 @@ List.findOneAndUpdate({}, {}, callback)
 ## Mongoose Links
 
 - Mongoose: [https://mongoosejs.com/](https://mongoosejs.com/)
-- [Node with MongoDB - Mongoose Tutorial](​https://www.youtube.com/watch?v=4yqu8YF29cU)
+- [Node with MongoDB - Mongoose Tutorial](https://www.youtube.com/watch?v=4yqu8YF29cU)
 
