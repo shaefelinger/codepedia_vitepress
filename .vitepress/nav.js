@@ -47,7 +47,12 @@ export default [
         activeMatch: '/vue/',
         items: [
           { text: 'Vue Basics', link: '/vue/basics/' },
-          { text: 'Vue Router', link: '/vue/router/' }
+          { text: 'Vue Router', link: '/vue/router/' },
+          { text: 'Vue State Management', link: '/vue/state/' },
+          { text: 'Vite', link: '/vue/vite/' },
+          { text: 'Quasar', link: '/vue/quasar/' },
+          { text: 'Nuxt', link: '/vue/nuxt/' },
+          { text: 'Vue Animation', link: '/vue/animation/' },
         ],
       },
       {

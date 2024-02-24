@@ -389,6 +389,63 @@ export default {
       ],
     },
   ],
+  '/vue/state/': [
+    {
+      text: 'Vue-State Management',
+      items: [
+        { text: 'Composition-API-Store', link: '/vue/state/' },
+        { text: 'Pinia', link: '/vue/state/pinia' },
+        { text: 'Vuex', link: '/vue/state/vuex' },
+        { text: 'Vuex-misc', link: '/vue/state/vuex-misc' }
+      ],
+    },
+  ],
+  '/vue/vite/': [
+    {
+      // text: 'Vite',
+      items: [
+        { text: 'Vite', link: '/vue/vite/' },
+      ],
+    },
+  ],
+  '/vue/quasar/': [
+    {
+      text: 'Quasar',
+      items: [
+        { text: 'Quasar', link: '/vue/quasar/' },
+        { text: 'Quasar Components', link: '/vue/quasar/components' },
+      ],
+    },
+  ],
+  '/vue/nuxt/': [
+    {
+      text: 'Nuxt',
+      items: [
+        { text: 'Why use nuxt?', link: '/vue/nuxt/' },
+        { text: 'Creating Nuxt Apps', link: '/vue/nuxt/create-app' },
+        { text: 'Nuxt Folder Structure', link: '/vue/nuxt/folder-structure' },
+        { text: 'Universal Mode', link: '/vue/nuxt/universal-mode' },
+        { text: 'SEO nuxt', link: '/vue/nuxt/seo' },
+        { text: 'File based routing', link: '/vue/nuxt/routing' },
+        { text: 'Nuxt Axios module', link: '/vue/nuxt/axios' },
+        { text: 'Nuxt Vuex', link: '/vue/nuxt/vuex' },
+        { text: 'Nuxt deploy', link: '/vue/nuxt/deploy' },
+        { text: 'Nuxt i18n', link: '/vue/nuxt/i18n' },
+        { text: 'Nuxt content', link: '/vue/nuxt/content' },
+      ],
+    },
+  ],
+ '/vue/animation/': [
+    {
+      text: 'Vue animation',
+      items: [
+        { text: 'Vue Animations & Transitions', link: '/vue/animation/' },
+        { text: 'Vue transition', link: '/vue/animation/transition' },
+        { text: 'Velocity.js', link: '/vue/animation/velocity' },
+        { text: 'GSAP 3', link: '/vue/animation/gsap3' },
+      ],
+    },
+  ],
 
   '/examples/': [
     {
