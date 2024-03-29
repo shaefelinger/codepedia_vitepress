@@ -41,6 +41,13 @@ export default [
           { text: 'SQL', link: '/databases/sql/' },
           { text: 'No-SQL', link: '/databases/no-sql/' },
         ],
+  },
+            {
+        text: 'Java',
+        activeMatch: '/java/',
+        items: [
+          { text: 'Java Basics', link: '/java/basics/' },
+        ],
       },
        {
         text: 'Vue',

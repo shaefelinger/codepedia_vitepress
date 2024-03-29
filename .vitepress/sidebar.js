@@ -192,9 +192,14 @@ export default {
       ],
     },
   ],
+    '/java/basics/': [
+    {
+      text: 'Java Basics (for javascript devs)',
+    },
+  ],
   '/databases/basics/': [
     {
-      text: 'Databases',
+      text: 'Java basics',
     },
   ],
   '/databases/sql/': [
